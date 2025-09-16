@@ -26,7 +26,7 @@ export default function TodoListComponent() {
     const [page, setPage] = React.useState(1);
 
     // 게산만 사용하는 일반변수 선언
-    const list = 3;  // 한페이지 목록 줄수
+    const list = 7;  // 한페이지 목록 줄수
     const 시작 = (page - 1) * list;
     const 끝   = 시작 + list;
     const 슬라이스 = todoList.slice(시작,  끝);  // 한페이지 단위로 5줄씩 배열 저장
