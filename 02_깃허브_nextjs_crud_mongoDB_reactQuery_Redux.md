@@ -6,5 +6,5 @@ git config user.name 'moonjongjs'
 git config user.email 'moonseonjong@naver.com'
 git remote add origin https://github.com/moonjongjs/next_todo_crud_mongodb.git
 git add .
-git commint  -m 'NextJS moongoDb Project Deploy'
+git commit  -m 'NextJS moongoDb Project Deploy'
 git push origin master
