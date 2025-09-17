@@ -12,10 +12,10 @@ export const metadata = {
   icons: {
     icon: [
       { url: "/img/icon_moon.ico", sizes: "any" },      // ico는 sizes any
-      { url: "/img/icon_moon.png", sizes: "192x192" }, // PNG 192px
+      { url: "/img/icon_moon.png", sizes: "250x250" }, // PNG 192px
     ],
-    shortcut: { url: "/img/icon_moon.png", sizes: "192x192" },
-    apple: { url: "/img/icon_moon.png", sizes: "192x192" },
+    shortcut: { url: "/img/icon_moon.png", sizes: "250x250" },
+    apple: { url: "/img/icon_moon.png", sizes: "250x250" },
   },
   publisher: "문선종",
   robots: "index, follow",
