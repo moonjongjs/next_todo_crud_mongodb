@@ -10,8 +10,9 @@ export const metadata = {
   description: "TO DO LIST NextJS 제작",
   keywords: ["TO DO LIST", "TO DO", "할일"],
   icons: {
-    shortcut: "/img/logo192.png",
-    apple: "/img/logo192.png",
+    icon: "/img/icon_moon.ico",
+    shortcut: "/img/icon_moon.png",
+    apple: "/img/icon_moon.png",
   },
   publisher: "문선종",
   robots: "index, follow",
