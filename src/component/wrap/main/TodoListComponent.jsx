@@ -269,8 +269,8 @@ export default function TodoListComponent() {
             formData = {
                 w_todo: todo.trim(),
                 w_completed: 0,
-                w_expires: expires,   
-                w_created_date: new Date()
+                w_expires: expires.toString(),   
+                w_created_date: new Date().toString()
             }   
             setCrud('');
             setTodo('');
