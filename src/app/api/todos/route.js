@@ -14,6 +14,9 @@ export async function GET() {
       기한: item.기한,
       등록일: item.등록일
     }));
+
+    console.log("MONGODB_URI =", process.env.MONGODB_URI);
+    
     return Response.json(resData);
 
 }
