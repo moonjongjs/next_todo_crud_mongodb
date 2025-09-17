@@ -16,7 +16,7 @@ export async function GET() {
     }));
 
     console.log("MONGODB_URI =", process.env.MONGODB_URI);
-    
+
     return Response.json(resData);
 
 }
@@ -47,8 +47,8 @@ export async function POST(data) {
 export async function DELETE(data) {
   await connectToDatabase();
 
-  const { _id } = await data.json();   // 프론트에서 전달한 MongoDB _id
-  const result = await Todo.findByIdAndDelete( _id );
+  const { 아이디 } = await data.json();   // 프론트에서 전달한 MongoDB _id
+  const result = await Todo.findByIdAndDelete( 아이디 );
   return Response.json(result ? 1 : 0);   // echo 1 / echo 0 응답
 
 }
